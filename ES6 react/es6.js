@@ -53,3 +53,17 @@ let resfiltre = notes.filter((value)=>{
 return value >=10;
 })
 alert(resfiltre) //17,18,10,15
+//find 
+
+resfind= notes.find((value)=>{
+return value ===19;
+
+})
+alert(resfind)
+
+//every check les notes et cherche si sont > 10 par exemple
+resEvery=notes.every((value)=>{
+    return value >10;
+})
+alert(resEvery)// return false resultat boolen soit true ou false
+
