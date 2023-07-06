@@ -19,7 +19,9 @@ function App() {
       <header className="App-header">
 
         <h1>Hello  Functional components</h1>
-        <Module />
+        <Module nom ="site statique" coefficient ="3" catégorie="web"   />
+        <Module nom ="Python" coefficient ="2" catégorie="programmation"   />
+        <Module nom ="ANdroid" coefficient ="1" catégorie="mobile"   />
         <hr></hr>
         <Etudiant/>
         <img src="logo192.png" />
