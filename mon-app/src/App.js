@@ -2,6 +2,7 @@
 import './App.css';
 import Etudiant from './Etudiant';
 import Module from  './Module';
+import Users from './Users';
 
 function App() {
   //declaration variable
@@ -24,6 +25,7 @@ function App() {
         <Module nom ="ANdroid" coefficient ="1" catégorie="mobile"   />
         <hr></hr>
         <Etudiant/>
+        <Users/>
         <img src="logo192.png" />
       </header>
     </div>
